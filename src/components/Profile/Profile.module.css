@@ -1,0 +1,66 @@
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Profile {
+  background-color: #fafafa;
+  width: 530px;
+  border: 3px solid #2a2a2a;
+  border-radius: 8px;
+  font-size: 30px;
+}
+
+.Profile__img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #2a2a2a;
+}
+
+.Profile__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  color: #808080;
+  padding: 20px;
+}
+
+.Profile__name {
+  margin: 10px 0;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.Profile__info {
+  background-color: #d3d3d3;
+  display: flex;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+}
+
+.Profile__infoItem {
+  width: calc(100% / 3);
+  border-top: 3px solid #808080;
+  border-right: 3px solid #808080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.Profile__infoItem:last-child {
+  border-right: none;
+}
+
+.Profile__infoItem span:last-child {
+  font-weight: 700;
+}

@@ -1,0 +1,26 @@
+.FriendListItem {
+  border: 2px solid #2a2a2a;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.FriendListItem img {
+  width: 70px
+}
+
+.FriendListItem__status {
+  font-size: 14px;
+}
+
+.FriendListItem__statusOnline {
+  color: #008001;
+}
+
+.FriendListItem__statusOffline {
+  color: #ff0000;
+}
